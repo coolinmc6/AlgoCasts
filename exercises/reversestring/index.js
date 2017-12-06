@@ -19,13 +19,13 @@ function reverse(str) {
 	// return str.split('').reverse().join('');
 
 	// // Solution #2 => WITHOUT Reverse Helper
-	// let reversed = '';
+	let reversed = '';
 
-	// for(let character of str) {
-	// 	reversed = character + reversed;
-	// }
+	for(let character of str) {
+		reversed = character + reversed;
+	}
 
-	// return reversed;
+	return reversed;
 
 
 	//// Solution #3
@@ -34,8 +34,7 @@ function reverse(str) {
 	// }, '');
 
 	//// Solution #3 - Cleaned Up
-	
-	return str.split('').reduce((rev, char) => char + rev, '');
+	// return str.split('').reduce((rev, char) => char + rev, '');
 
 
 }

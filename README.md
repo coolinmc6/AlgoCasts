@@ -1,9 +1,20 @@
 # README
 
 ## Setup
+
 - To get started, go to the directory `/AlgoCasts/exercises`
 - From there, I can run whatever tests I want. For example: `jest reversestring/test.js --watch`
 
+- **Debugger**
+	+ add the word `debugger` to where in your code you want to stop it
+	+ call the function below your implementation of the solution
+	+ navigate in the Command Line to the directory of the problem you're working on
+	+ run `node inspect index.js`
+	+ press `c` to continue execution of the file
+	+ use `repl` in the command line to look at particular variables
+	+ CRTL + C to exit repl and again to exit debugger
+
+# Setup
 
 ### Lecture 2
 
@@ -31,8 +42,7 @@ function fib(n) {
 }
 ```
 
-# String Reversal
-- Lectures 8 - 12
+# String Reversal (8-12)
 - There isn't a string method that just reverses the string but there is a reverse method for Arrays.
 - So we can have to turn it into an array, reverse the order, and then re-combine them using join
 - **Solution #2**
@@ -43,3 +53,28 @@ function fib(n) {
 - **Solution #3**
 	+ uses reduce
 
+# Palindromes (13-15)
+
+# Integer Reversal
+
+# MaxChars
+
+# The Classic FizzBuzz!
+
+# Array Chunking
+
+# Sentence Capitalization
+
+# Printing Steps
+
+# Two Sided Steps - Pyramids
+
+# Find the Vowels
+
+# Enter the Matrix Spiral
+
+# Runtime Complexity
+
+# Runtime Complexity in Practice - Fibonacci
+
+# the Queue
