@@ -14,8 +14,11 @@
 	+ use `repl` in the command line to look at particular variables
 	+ CRTL + C to exit repl and again to exit debugger
 
-# Setup
+# Patterns, Methods, or Other Items That Stood Out
 
+
+
+# Getting Started
 ### Lecture 2
 
 - **Contact Phase:** work experience, side projects, social contacts
@@ -55,7 +58,7 @@ function fib(n) {
 
 # Palindromes (13-15)
 
-# Integer Reversal
+# Integer Reversal (16-17)
 
 # MaxChars
 

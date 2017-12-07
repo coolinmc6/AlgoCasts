@@ -7,6 +7,24 @@
 //   palindrome("abba") === true
 //   palindrome("abcdefg") === false
 
-function palindrome(str) {}
+function palindrome(str) {
+	//// CM Solution #1
+	// return str.split('').reverse().join('') == str ? true : false;
+
+	//// CM Solution #2: I can just return the conditional; the ternary above is excess logic
+	// return str.split('').reverse().join('') === str;
+
+	//// Solution #1
+	// const reversed = str.split('').reverse().join('');
+	// return str === reversed;
+
+	//// Solution #2
+	// one problem it has is that it compares the same two elements twice; the double comparison problem
+	// NOTICE: I don't have to set str.split('') to an array. I can just call str
+	return str.split('').every((char, i) => {
+		return char === str[str.length -i - 1];
+	});
+
+}
 
 module.exports = palindrome;
