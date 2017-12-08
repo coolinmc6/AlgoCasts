@@ -16,6 +16,11 @@
 
 # Patterns, Methods, or Other Items That Stood Out
 
+- MaxChar
+
+```js
+chars[char] = chars[char] + 1 || 1;
+```
 
 
 # Getting Started
@@ -65,6 +70,18 @@ function fib(n) {
 # The Classic FizzBuzz!
 
 # Array Chunking
+- Two interesting solutions
+- The second one involves slicing big chunks of the array and putting into a new array
+	+ if you give a value that is above the number of elements, slice will just give you the rest of the array
+
+```js
+var array = [1,2,3,4,5,6,7,8]
+
+var newArray = array.slice(0,100)
+
+console.log(newArray)		// [1, 2, 3, 4, 5, 6, 7, 8]
+```
+
 
 # Sentence Capitalization
 
