@@ -85,7 +85,13 @@ console.log(newArray)		// [1, 2, 3, 4, 5, 6, 7, 8]
 
 # Sentence Capitalization
 
-# Printing Steps
+# Printing Steps (35 - 39)
+- with Recursion:
+	+ Figure out the bare minimum pieces of info to represent your problem
+	+ Give reasonable defaults to the bare minimum pieces of info
+	+ Check the base case. Is there any work left to do? If not, return
+	+ Do some work. Call your functionagain, making sure the arguments have changed
+	in some way
 
 # Two Sided Steps - Pyramids
 
@@ -97,4 +103,34 @@ console.log(newArray)		// [1, 2, 3, 4, 5, 6, 7, 8]
 
 # Runtime Complexity in Practice - Fibonacci
 
-# the Queue
+# The Queue
+
+# Underwater Queue Weaving
+
+# Stack'Em Up with Stacks
+
+# Two Become One
+
+# Linked Lists
+
+# Find the Midpoint
+
+# Circular Lists?
+
+# Step Back from the Tail
+
+# Building a Tree
+
+# Tree Width with Level Widdth
+
+# My Best Friend, Binary Search Trees
+
+
+
+
+
+
+
+
+
+
