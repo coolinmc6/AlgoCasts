@@ -96,8 +96,11 @@ console.log(newArray)		// [1, 2, 3, 4, 5, 6, 7, 8]
 # Two Sided Steps - Pyramids
 
 # Find the Vowels
+- use of `includes()` to decide whether to add to the counter or not
+- use of match and then some regex
 
 # Enter the Matrix Spiral
+
 
 # Runtime Complexity
 
