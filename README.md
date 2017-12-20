@@ -85,7 +85,7 @@ console.log(newArray)		// [1, 2, 3, 4, 5, 6, 7, 8]
 
 # Sentence Capitalization
 
-# Printing Steps (35 - 39)
+# Printing Steps (L35 - :39)
 - with Recursion:
 	+ Figure out the bare minimum pieces of info to represent your problem
 	+ Give reasonable defaults to the bare minimum pieces of info
@@ -99,12 +99,59 @@ console.log(newArray)		// [1, 2, 3, 4, 5, 6, 7, 8]
 - use of `includes()` to decide whether to add to the counter or not
 - use of match and then some regex
 
-# Enter the Matrix Spiral
+# Enter the Matrix Spiral (L46 - L48)
 
 
-# Runtime Complexity
+# Runtime Complexity (L49 - L51)
+- describes the performance of an algorithm
+- How much more processing power/time is required to run your algorithm if we double the inputs?
+- n * n things or n^2 items (Steps Algorithm)
 
-# Runtime Complexity in Practice - Fibonacci
+## Runtime Complexity Types
+- **Constant Time:** [1] no matter how many elements we're working with, the algorithm/operation will always
+take the same amount of time
+- **Logarithmic Time:** [log(n)] You have this if doubling the number of elements you are iterating 
+over doesn't double the amount of work. Always assume that searching operations are log(n)
+- **Linear Time:** [n] Iterating through all elements in a collection of data. If you see a for 
+loop spanning from '0' to 'array.length', you probably 'n', or linear runtime
+- **Quasilinear Time:** [n * log(n)] You have this if doubling the number of element you are iterating over
+doesn't double the amount of work. Always assume that any sorting operation is n * log(n)
+- **Quadratic Time:** [ n ^ 2] Every element in a collection to be compared to every other element. The 
+'handshake problem'
+- **Exponential Time:** [2 ^ n] If you add a "single" element to a collection, the processing power required
+doubles
+
+## Big 'O'
+- Big 'O' Notation
+	+ O(n) => Linear
+	+ O(1) => Constant
+	+ O(n^2) => Quadratic
+- Referring to Big O people are asking about the runtime complexity of your algorithm
+
+## Identifying RunTime Complexity
+- Iterating with a simple for loop through a single collection -> probably O(n)
+- Iterating through half a collection -> still O(n) => there are no constants in runtime
+- Iterating through two different collections with separate for-loops -> O(n + m)
+- Two nested for-loops iterating over the same collection -> O(n^2)
+- Two nested for-loops iterating over different collections -> O(n * m)
+- Sorting -> O(n * log(n))
+- Searching a sorted array -> O(log(n))
+
+## Space Complexity
+- similar to runtime but is how much memory the algorithm requires
+
+# Runtime Complexity in Practice - Fibonacci (L52 - L56)
+- given that we have a loop that begins at a set number and continually adds one to i AND no additional
+work (i.e. secondary loops), we can say it is linear
+- Our second solution with recursion is an exponential time algorithm
+- Can we improve our fibonacci recursive function? 
+	- Our big problem, we are calling the function multiple times with the same argument 
+	- The solution? Memoization
+		+ Memoization => store the arguments of each function call along with the result. If the function
+		is called again with the same arguments, return the precomputed result, rather than running the
+		function again
+	- "memo" + "ize" => when we "memo-ize" a function...
+* 
 
 # The Queue
 
@@ -114,7 +161,7 @@ console.log(newArray)		// [1, 2, 3, 4, 5, 6, 7, 8]
 
 # Two Become One
 
-# Linked Lists
+# Linked Lists (L67 - L97)
 
 # Find the Midpoint
 
@@ -124,10 +171,19 @@ console.log(newArray)		// [1, 2, 3, 4, 5, 6, 7, 8]
 
 # Building a Tree
 
-# Tree Width with Level Widdth
+# Tree Width with Level Width (L112 - L113)
 
 # My Best Friend, Binary Search Trees
 
+# Validating a Binary Search Tree
+
+# Back to JavaScript - Events
+
+# Sorting With BubbleSort
+
+# Sort By Selection
+
+# MergeSort (L129 - L132)
 
 
 
