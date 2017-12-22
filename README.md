@@ -153,7 +153,27 @@ work (i.e. secondary loops), we can say it is linear
 	- "memo" + "ize" => when we "memo-ize" a function...
 * 
 
-# The Queue
+# The Queue (L57 - L59)
+
+## What's a Data Structure?
+
+
+## The Queue Data Structure
+- a data structure is some way of organizing information with optimal 'runtime complexity' for adding 
+or removing records
+- JavaScript natively implements several data structures => you will still be asked about "inferior"
+data structures
+
+## Implementing a Queue
+- A queue can be seen as a container of records; the data enters in one part and then exits another part
+- adding a record = enqueuing
+- removing a record = dequeuing
+- Queues follow FIFO => First In, First Out
+
+| Queue 	  | Array Equivalent |
+| ------------|:-----------------|
+| Add to Queue| array.unshift()  |
+| Remove from queue| array.pop() |
 
 # Underwater Queue Weaving
 
