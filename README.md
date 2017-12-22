@@ -187,9 +187,9 @@ unshift ("add") and pop ("remove");
 
 | Method | Action|
 |:---:|:---:|
-| **push** 	  | Add a record to the stack |
-| **pop** | Remove the "top" record in the stack |
-| **peek** | Return the "top" record without popping it |
+| push 	  | Add a record to the stack |
+| pop | Remove the "top" record in the stack |
+| peek | Return the "top" record without popping it |
 
 
 # Two Become One (L64 - L66)
