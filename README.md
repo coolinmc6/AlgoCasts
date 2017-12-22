@@ -172,8 +172,8 @@ data structures
 
 | Queue 	  | Array Equivalent |
 | ------------|:-----------------|
-| Add to Queue| array.unshift()  |
-| Remove from queue| array.pop() |
+| Add to Queue| `array.unshift()`  |
+| Remove from queue| `array.pop()` |
 
 # Underwater Queue Weaving
 
