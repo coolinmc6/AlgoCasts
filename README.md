@@ -156,32 +156,45 @@ work (i.e. secondary loops), we can say it is linear
 # The Queue (L57 - L59)
 
 ## What's a Data Structure?
-
-
-## The Queue Data Structure
 - a data structure is some way of organizing information with optimal 'runtime complexity' for adding 
 or removing records
 - JavaScript natively implements several data structures => you will still be asked about "inferior"
 data structures
 
-## Implementing a Queue
+## The Queue Data Structure
 - A queue can be seen as a container of records; the data enters in one part and then exits another part
 - adding a record = enqueuing
 - removing a record = dequeuing
 - Queues follow FIFO => First In, First Out
 
 | Queue 	  | Array Equivalent |
-| ------------|:-----------------|
+| ------------|:-----------------:|
 | Add to Queue| `array.unshift()`  |
 | Remove from queue| `array.pop()` |
 
-# Underwater Queue Weaving
+- whenever we make a Queue class, we essentially initialize an array and block the other methods besides
+unshift ("add") and pop ("remove");
 
-# Stack'Em Up with Stacks
+## Implementing a Queue
 
-# Two Become One
+# Underwater Queue Weaving (L60 - L61)
+
+
+
+# Stack'Em Up with Stacks (L62 - L63)
+- with a Stack, it is FILO => First In, Last Out
+- Stack Methods:
+
+| **push** 	  | Add a record to the stack |
+| **pop** | Remove the "top" record in the stack |
+| **peek** | Return the "top" record without popping it |
+
+
+# Two Become One (L64 - L66)
+
 
 # Linked Lists (L67 - L97)
+
 
 # Find the Midpoint
 
