@@ -196,6 +196,13 @@ unshift ("add") and pop ("remove");
 
 
 # Linked Lists (L67 - L97)
+- A linked list is an ordered collection of data, with each element containing a link to its successor
+- **Node:** an element in the linked list which contains the data and the reference node
+- **Head:** The first node
+- **Tail:** the last node
+- **Data:** the data that we want to save
+- **Reference:** the reference to the next node
+- 
 
 
 # Find the Midpoint
