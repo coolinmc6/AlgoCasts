@@ -227,10 +227,13 @@ unshift ("add") and pop ("remove");
 # My Best Friend, Binary Search Trees
 
 # Validating a Binary Search Tree
+- I'm not actually "setting" max or min; I am simply calling the validate function with a max value 
+and min value as arguments that I choose
 
 # Back to JavaScript - Events
 
 # Sorting With BubbleSort
+
 
 # Sort By Selection
 
