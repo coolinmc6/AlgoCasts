@@ -61,13 +61,13 @@
 // 	return anagram;
 // }
 
-//// Colins's Solution #2
-// function anagrams(stringA, stringB) {
+// Colins's Solution #2
+function anagrams(stringA, stringB) {
 	
-// 	var strA = stringA.replace(/[^\w]/g, "").toLowerCase().split("").sort().join("");
-// 	var strB = stringB.replace(/[^\w]/g, "").toLowerCase().split("").sort().join("");
-// 	return strA == strB;
-// }
+	var strA = stringA.replace(/[^\w]/g, "").toLowerCase().split("").sort().join("");
+	var strB = stringB.replace(/[^\w]/g, "").toLowerCase().split("").sort().join("");
+	return strA === strB;
+}
 
 
 //// Solution #1
