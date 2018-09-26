@@ -10,31 +10,31 @@
 
 
 // CM Solution
-// function fib(n) {
+function fib(n) {
 
-// 	var series = [0,1]
-// 	for(let i = 2; i < n+1; i++) {
-// 		if(i == 2) {
-// 			series.push(1)
-// 		} else {
-// 			series.push(series[i-2] + series[i-1]);
-// 		}
-// 	}
-// 	return series[n];
-// }
+	var series = [0,1]
+	for(let i = 2; i < n+1; i++) {
+		if(i == 2) {
+			series.push(1)
+		} else {
+			series.push(series[i-2] + series[i-1]);
+		}
+	}
+	return series[n];
+}
 
 //// Solution #1
-// function fib(n) {
-// 	const result = [0,1];
+function fib(n) {
+	const result = [0,1];
 
-// 	for(let i = 2; i<=n; i++) {
-// 		const a = result[i -1];
-// 		const b = result[i - 2];
-// 		result.push(a+b);
-// 	}
+	for(let i = 2; i<=n; i++) {
+		const a = result[i -1];
+		const b = result[i - 2];
+		result.push(a+b);
+	}
 
-// 	return result[n];
-// }
+	return result[n];
+}
 
 
 //// Solution #2 With Recursion

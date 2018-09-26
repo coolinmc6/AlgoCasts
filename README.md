@@ -85,12 +85,12 @@ console.log(newArray)		// [1, 2, 3, 4, 5, 6, 7, 8]
 
 # Sentence Capitalization
 
-# Printing Steps (L35 - :39)
+# Printing Steps (L35 - L39)
 - with Recursion:
 	+ Figure out the bare minimum pieces of info to represent your problem
 	+ Give reasonable defaults to the bare minimum pieces of info
 	+ Check the base case. Is there any work left to do? If not, return
-	+ Do some work. Call your functionagain, making sure the arguments have changed
+	+ Do some work. Call your function again, making sure the arguments have changed
 	in some way
 
 # Two Sided Steps - Pyramids
