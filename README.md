@@ -79,7 +79,7 @@ var array = [1,2,3,4,5,6,7,8]
 
 var newArray = array.slice(0,100)
 
-console.log(newArray)		// [1, 2, 3, 4, 5, 6, 7, 8]
+console.log(newArray);		// [1, 2, 3, 4, 5, 6, 7, 8]
 ```
 
 
@@ -174,6 +174,7 @@ data structures
 
 - whenever we make a Queue class, we essentially initialize an array and block the other methods besides
 unshift ("add") and pop ("remove");
+
 
 ## Implementing a Queue
 
