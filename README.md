@@ -212,7 +212,7 @@ unshift ("add") and pop ("remove");
 
 # Step Back from the Tail
 
-# Building a Tree
+# Building a Tree (L104 - L111)
 - For a tree, each box is a node
 - a child is any node below any other node
 - the upper box is a parent
@@ -220,6 +220,7 @@ unshift ("add") and pop ("remove");
 - iterating through a tree = traversal
 - there are different orders of traversals through a tree
 - Breadth-First Traversal => iterate at each level
+	+ start at the top, then to the next level and go through all of them, then down to the next level and go through all of them
 - Depth-First Traversal => we try to get to the bottom of the tree as soon as possible
 - 
 
